@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="signuppage.css">
+</head>
+<body>
+<div class="header">
+  <img src="/BMW-Logo-PNG3.png" class="logo">
+</div>
+
+<div class="content">
+  <form>
+    <label>Name</label><br>
+    <input type="text">
+    <br>
+    <label>Email Address</label>
+    <input type="email" id="email">
+    <p id="emailerrorMSG"></p>
+    <br>
+    <label>Password</label>
+    <input type="password" id="pass1">
+    <br>
+    <label>Confirm Password</label>
+    <input type="password" id="pass2">
+    <p id="passwordmismatch"></p>
+    <br>
+    <label>Phone Number</label>
+    <input type="text">
+    <br>
+    <label>Gender:</label>
+    <div class="radio-group">
+      <input type="radio" name="Gender" id="male">
+      <label for="male">Male</label>
+
+      <input type="radio" name="Gender" id="female">
+      <label for="female">Female</label>
+    </div>
+
+    <label>Birthday</label>
+    <input type="date">
+
+    <label>Address (EX: Cairo, Alexandria, Etc)</label>
+    <input type="text">
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</div>
+</body>
+<script src="signup.js"></script>
+</html>

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: black;
+    width: 100%;
+    height: 150px;
+}
+.logo {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:47%;
+    padding-top: 30px;
+
+}
+label{
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+input{
+   margin: 20px;
+   padding: 10px;
+   width: 300px;
+   border-radius:8px ;
+   font-size: 20px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background:rgb(0, 149, 255);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+form{
+    background: rgb(226, 226, 226);
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+.content{
+    background-image: url(BMW-M-Cars.jpg);
+    background-position: center;
+    width: 100%;
+}
